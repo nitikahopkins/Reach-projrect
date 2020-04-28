@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  font-family: "Poller One";
+  background: url(https://thumbs.gfycat.com/IdenticalEachGuineapig-size_restricted.gif)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  height: 10vw;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cards {
+  background-color: silver;
+  width: 20%;
+  box-shadow: 0 4px 8px 0 snow;
+  border-radius: 5%;
+  margin: 2vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+  text-align: center;
+  height: 65vh;
+}
+
+.cast {
+  position: relative;
+}
+.actors {
+  border-radius: 40%;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+  text-align: center;
+  top: initial;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 snow;
+}
+
+.card {
+  background-color: silver;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 snow;
+  border-radius: 5%;
+  margin: 2vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+  text-align: center;
+  height: 85vh;
+}
+
+.home-button {
+  border: none;
+  background: grey;
+  color: whitesmoke;
+  font-weight: 800;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+.home-button:hover {
+  color: black;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-radius: 6px;
+  background: whitesmoke;
+  box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
